@@ -105,7 +105,7 @@ class EmuCamInfo(Converter, object):
 				cam_info2 = ''
 				
 
-			txt_cam = "%s     %s %s     %s     %s  %s" % (cam_active, self.caName(cam_caid[2:]), cam_caid, cam_ecmtime, cam_info1, cam_info2)
+			txt_cam = "%s     %s %s     %s     %s  %s" % (cam_active, self.caName(cam_caid[2:]), cam_caid[2:], cam_ecmtime, cam_info1, cam_info2)
 
 
 
