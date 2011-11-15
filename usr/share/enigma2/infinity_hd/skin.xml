@@ -507,8 +507,8 @@
     <widget position="70,501" size="100, 20" source="session.CurrentService" render="Label" font="Regular; 16" valign="top" halign="center" foregroundColor="white" backgroundColor="black" transparent="1">
       <convert type="ServiceInfo">Framerate</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="498, 587" zPosition="2" size="722, 20" font="Regular; 16" valign="center" halign="left" transparent="1" foregroundColor="white" backgroundColor="black">
-      <convert type="ExtraInfo">ExtraEcm</convert>
+    <widget source="session.CurrentService" render="Label" position="200, 587" zPosition="2" size="722, 20" font="Regular; 16" valign="center" halign="left" transparent="1" foregroundColor="white" backgroundColor="black">
+      <convert type="EmuCamInfo">CAMINFO</convert>
     </widget>
   </screen>
   <screen name="Mute" position="70, 70" zPosition="-1" size="64, 22" title="Mute" flags="wfNoBorder">
